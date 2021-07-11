@@ -16,10 +16,14 @@ Python
     * 동적 자료형(Dynamic data type):파이썬이 사용하는 자료형, 실행시 메모리 공간에 정보를 결정하는 방식 - interpreter방식 프로그램 언어가 주로 사용
     
  <h4>2.파이썬 언어 특징</h4>
- * 대화식 인터프리터 언어   
+ * 대화식 인터프리터 언어(고급언어) 
+ 
  * 동적 자료형을 지원   
+ 
  * 플랫폼에 독립적인 언어/ 파이썬은 리눅스와 유닉스, 윈도우, mac os등 대부분의 운영 체제에서 실행된다.   
+ 
  * 개발 기간 단축에 초점을 맞춘 언어   
+ 
  * 파이썬은 list, dictionary, string, tuple, set등 고수준의 자료구조를 제공한다.   
 
  개념: 컴퓨터 시스템에게 명령을 내리기 위한 용도로 사용하는 프로그램언어
@@ -43,6 +47,49 @@ Python
             *(https://www.python.org/)
             
         2. 파이썬 배포판을 이용한 개발환경구축   
-            *(https://www.anaconda.com/) 파이썬 기본 개발 환경에 추가적으로 빅데이터 처리, ai모델개발을 위한 환경을 모두 포함
+            *(https://www.anaconda.com/) 
+            
+            -파이썬 기본 개발 환경에 추가적으로 빅데이터 처리, ai모델개발을 위한 환경을 모두 포함
+            
+            -windows O/S에 설치할 때는 C:/Anaconda3로 설치 위치를 하는 게 차후 사용시 편리. d드라이브가 있으면 D:/Anaconda3에 설치
+            
+*http://www.wearedev.net/247?PHPSESSID=863fed721b9b507a98f1d8b9118874c5 설치방법안내
 
         3. cloud service를 이용한 파이썬 개발 환경 이용
+         
+         -goolge에서 제공하는 파이썬 개발 환경 이용
+         
+         -google drive에 접속->내 드라이브-> 마우스 오른쪽 클릭 -> 프로그램 더보기->google colaboratory프로그램 실행
+         
+         -내 pc사양에 상관없이 서버에 설치된다.
+         
+<h4>파이썬 개발 환경 이해</h4>
+
+   -Anaconda 개발 환경 이해
+   
+       * 통합 개발 환경(IDE,integrated Development Environment):코드 편집, 번역, 실행, debugging을 하나의 tool을 이용하여 수행할 수 있도록 하는 개발 환경 anaconda의 spider,pycharm등이 있다.
+       
+       * jupyter notebook/jupyter lab:python 코드편집, 실행, Markdown을 이용한 문서화, 실행 결과를 하나의 notebook으로 표현(데이터분석, ai할 때는 데이터분석 사용할 코드도 필요하고 그 코드에 의한 결과물이 필요하고 이를 문서화할 때 용이)
+       
+       * windows O/S : anaconda prompt 프로그램 실행
+             
+             - dir 명령
+             
+             - 드라이브 이동 명령 :드라이브문자:
+             
+             -mkdir 디렉토리이름 :디렉토리 생성
+             
+             -cd 디렉토리이름 : 디렉토리 이동
+             
+       * jupyter notebook -> new-> python3-> 새로운 notebook생성
+       
+       <pre>
+       <code>
+       # 파이썬 스크립트(프로그램)
+            print('python progrm')
+            print('5+10=',5+10)
+            print('5-10=',5-10)
+            print('5*10=',5*10)
+            print('5/10=',5/10)
+       </code>
+       </pre>

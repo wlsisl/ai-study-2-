@@ -82,15 +82,18 @@ Python
      -cd 디렉토리이름 : 디렉토리 이동
              
        * jupyter notebook -> new-> python3-> 새로운 notebook생성
-       
+         - 명령셀:파이썬 명령을 입력하는 용도로 사용하는 셀   
+         - Markdown 셀:Markdown스크립트를 입력하는 셀,문서작성을 목적으로 한다.   
+         - 셀이 선택되면 녹색 테두리, 셀이 선택되지 않으면 파란색 테두리로 감싼다.   
+         - 셀을 선택을 해제할 때는 esc키를 사용한다.   
+         - shift enter or run:셀 실행
        
        # 파이썬 스크립트(프로그램)
-        <pre>
-        <code>
-           {print('python progrm')
+        
+            print('python progrm')
             print('5+10=',5+10)
             print('5-10=',5-10)
             print('5*10=',5*10)
             print('5/10=',5/10)}
-        </code>
-        </pre>    
+        
+        

@@ -102,7 +102,8 @@ Python
    * Markdown:스크립트(script)방식을 이용하여 문서 형태를 표현하는 언어
      
      - 태그를 이용하여 문서 형식을 결정한다.   
-     - Tex을 이용한 수식표현도 가능하다.
+     - Tex을 이용한 수식표현도 가능하다. (https://en.wikipedia.org/wiki/Help:Displaying_a_formula#Formatting_using_Tex)   
+     - 마크다운은 표준 형식이 없다. 따라서 마크다운 태그를 사용시 jupyter notebook에서 제대로 적용이 안되는 태그도 있다.
              
             # Markdown
 
@@ -157,7 +158,7 @@ Python
 ## 표 작성
 
 |항목1|항목2|항목3|항목4|
-|---|:---|---:|:---:|
+|---|:---|---:|:---:|                         -> 오른쪽/왼/오/가운데 정렬
 |내용1|내용2|내용3|내용4|
 
 ## 링크
@@ -165,7 +166,8 @@ Python
 [Google]( http://www.google.com )
 [Naver]( http://www.naver.com )
 
-## 수식표현
+## 수식표현 (TeX)
 
 $$x = { -b \pm \sqrt { b^2 - 4ac } \over 2a}$$
+
 문장중에 수식을 표현할 때는 $X^2 \times Y^2$ 이와 같이 표현한다.

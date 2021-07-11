@@ -55,7 +55,7 @@ Python
             
 *http://www.wearedev.net/247?PHPSESSID=863fed721b9b507a98f1d8b9118874c5 설치방법안내
 
-        3. cloud service를 이용한 파이썬 개발 환경 이용
+   3. cloud service를 이용한 파이썬 개발 환경 이용
          
          -goolge에서 제공하는 파이썬 개발 환경 이용
          
@@ -65,31 +65,32 @@ Python
          
 <h4>파이썬 개발 환경 이해</h4>
 
-   -Anaconda 개발 환경 이해
+ -Anaconda 개발 환경 이해
    
-       * 통합 개발 환경(IDE,integrated Development Environment):코드 편집, 번역, 실행, debugging을 하나의 tool을 이용하여 수행할 수 있도록 하는 개발 환경 anaconda의 spider,pycharm등이 있다.
+  * 통합 개발 환경(IDE,integrated Development Environment):코드 편집, 번역, 실행, debugging을 하나의 tool을 이용하여 수행할 수 있도록 하는 개발 환경 anaconda의 spider,pycharm등이 있다.
        
-       * jupyter notebook/jupyter lab:python 코드편집, 실행, Markdown을 이용한 문서화, 실행 결과를 하나의 notebook으로 표현(데이터분석, ai할 때는 데이터분석 사용할 코드도 필요하고 그 코드에 의한 결과물이 필요하고 이를 문서화할 때 용이)
+  * jupyter notebook/jupyter lab:python 코드편집, 실행, Markdown을 이용한 문서화, 실행 결과를 하나의 notebook으로 표현(데이터분석, ai할 때는 데이터분석 사용할 코드도 필요하고 그 코드에 의한 결과물이 필요하고 이를 문서화할 때 용이)
        
-       * windows O/S : anaconda prompt 프로그램 실행
+  * windows O/S : anaconda prompt 프로그램 실행
              
-             - dir 명령
+     - dir 명령
              
-             - 드라이브 이동 명령 :드라이브문자:
+     - 드라이브 이동 명령 :드라이브문자:
              
-             -mkdir 디렉토리이름 :디렉토리 생성
+     -mkdir 디렉토리이름 :디렉토리 생성
              
-             -cd 디렉토리이름 : 디렉토리 이동
+     -cd 디렉토리이름 : 디렉토리 이동
              
        * jupyter notebook -> new-> python3-> 새로운 notebook생성
        
-       <pre>
-       <code>
+       
        # 파이썬 스크립트(프로그램)
-            print('python progrm')
+        <pre>
+        <code>
+           {print('python progrm')
             print('5+10=',5+10)
             print('5-10=',5-10)
             print('5*10=',5*10)
-            print('5/10=',5/10)
-       </code>
-       </pre>
+            print('5/10=',5/10)}
+        </code>
+        </pre>    

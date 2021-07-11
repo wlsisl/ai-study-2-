@@ -168,6 +168,6 @@ Python
 
 ## 수식표현 (TeX)
 
-$$x = { -b \pm \sqrt { b^2 - 4ac } \over 2a}$$
+$$ x = { -b \pm \sqrt { b^2 - 4ac } \over 2a} $$   
 
 문장중에 수식을 표현할 때는 $X^2 \times Y^2$ 이와 같이 표현한다.

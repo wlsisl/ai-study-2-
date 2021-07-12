@@ -91,6 +91,7 @@ Python
        - dd: 현재 셀 삭제   
        - y:code 셀로 변환   
        - m:makrdown셀로 변환
+       
        # 파이썬 스크립트(프로그램)
         
             print('python progrm')
@@ -168,6 +169,16 @@ Python
 
 ## 수식표현 (TeX)
 
-$$ x = { -b \pm \sqrt { b^2 - 4ac } \over 2a} $$   
+$$x={-b \pm \sqrt {b^2-4ac} \over 2a} $$   
 
 문장중에 수식을 표현할 때는 $X^2 \times Y^2$ 이와 같이 표현한다.
+
+
+   * jupyter lab: jupyter notebook의 개선된 기능을 제공하는 개발환경
+
+- google colab
+ 
+   * google drive 상에서 실행하는 jupyter notebook   
+   * google cloud 환경에서 실행되므로 server computer의 H/W 자원을 사용한다.   
+   * 어디서든지 web browser를 실행해서 colab을 실행할 수 있다.
+

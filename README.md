@@ -415,7 +415,7 @@ $$x={-b \pm \sqrt {b^2-4ac} \over 2a} $$
   
     + 선택구조: 명령어를 수행시 조건에 따라 명령의 실행 순서를 변경하여 실행하는 구조   
     
-         * 선택 구조는 if~elif~else keyword사용
+         * 선택 구조는 if elif else keyword사용
   
          * 단순 선택구조:조건이 참인 경우에 대한 처리 방향만 결정
   

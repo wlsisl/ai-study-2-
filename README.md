@@ -1,26 +1,87 @@
 # ai-study-2-
 Python
 
+참가하게 된 계기.
+
+이번 인공지능 스터디에서는 컴퓨터 구조학습을 통해 프로그래밍을 하는 이유를 알아보고 파이썬 언어를 배우며 실습하는 과정을 거친다. 해당 내용은 2021년 여름방학 전남ict이노베이션 인공지능 강의를 통해 진행된 점을 알린다.
+
+먼저 컴퓨터 구조를 배운다. 프로그래밍에 앞서 컴퓨터 구조를 알아보는 이유는 프로그래밍이 이루어지는 컴퓨터의 특징을 먼저 파악하고자 이다. 기본개념은 무엇이고 왜 컴퓨터에게 명령해야 하는지를 알고 프로그래밍 언어를 배우면 더 효과가 좋기 때문에 컴퓨터 구조를 먼저 학습했다.
+
+<h2>컴퓨터 구조</h2>
+*기계어(Machine Languag e): 0과 1로 표현된 언어*
+*어셈블리어(Assembly Language): 기계어와 일대일 대응하는 언어*
+*고급언어(High Level Language): 인간 입장에서 컴퓨터에게 명령을 내릴 수 있도록 구성된 언어*
+
+컴퓨터는 인간 언어를 알아먹을 수 없다. 그래서 우리들이 사용하는 언어를 컴퓨터가 알아볼 수 있는 언어로 바꿔줘야한다. 
+
+<h4>Hardware</h4>
+cpu와 memory, i/o device가 연결되어있다.
+
+CPU(Central Processing Unit): 산술연산/관계연산/논리연산
+연산 자체는 담당하지만 기억기능이 없다.
+   ALU(Arithmetic Logical Unit):연산
+  
+   CU(Control Unit):제어   
+   
+   Register:임시 기억 장소   
+Memory: 프로그램(명령의 집합)이나 데이터(값)를 기억  
+   RAM(Random Access Memory): 주로 사용하는 메모리, 전원이 연결된 상태에서만 저장, 읽기/쓰기 모두 가능
+   
+   ROM(Read Only Memory): 기억기능밖에 없어서 RAM에 복사되어 사용된다. 속도가 느리다.
+   
+I/O(input/output)Device:입/출력 장치
+   input Deice(입력장치): 키보드, 마우스, 마이크, 카메라 등을 말한다. 
+**입력내용은 Memory에 저장된다.**
+   
+   Output Device(출력 장치):모니터, 스피커, 출력내용은 Memory에 있는 내용을 출력한다.(그러니까 컴퓨터 하드웨어 장치를 동작하는 것은 명령으로 제어를 할텐데 명령을 내리기 위해서 어떤 장치가 작동되게 해야할까?의 답)
+   
+   2nd Memory(보조 기억 장치):HDD, SSD, Memory에 보관되었던 프로그램이나 데이터를 보관하는 목적의 저장 장치. 즉 Memory는 전원이 연결된 상태에서만 저장해주기 때문에 이를 대신해준다.
+   
+<h4>Software</h4>
+컴퓨터 시스템의 기계장치를 운영하는 프로그램
+   * System Software: 우리는 cpu, memory, i/o device에 명령을 내릴 수 있어야한다. 즉 H/W를 제어하고 Application Software를 동작할 수 있는 환경을 제공하는 프로그램   
+   O/S(Operation System):Windows/Linux/Mac OS
+   
+   * Library:Application Software가 사용하는 함수 집합
+   
+   * Application Software: 일반 사용자를 위한 프로그램, End-user를 위한 프로그램
++ 컴퓨터 네트워크(computer network): 컴퓨터간 통신(데이터공유, 프로그램 공유)을 수행할 수 있도록 연결
++ LAN(local area network): 좁은 지역의 컴퓨터를 연결한 network
++ WAN(wide area network): 넓은 지역의 컴퓨터를 연결한 network
++ internet: 전세계 컴퓨터를 연결한 network
++ 프로토콜 (protocol): 네트워크에 연결된 컴퓨터간 통신을 하기 위한 규칙
++ TCP/IP: internet에서 사용하는 protocol
++ WWW(world wide web): internet에서 제공하는 서비스 형태
++ HTTP: wep에서 사용하는 protocol
++ HTML: web에서 제공되는 서비스를 구현할 때 사용하는 프로그램 언어
++ server computer: 요청에 대한 응답을 수행하는 컴퓨터
+   - server program: Server computer 에서 요청에 대한 응답 처리를 수행하는 프로그램
++ client computer: 요청을 하는 컴퓨터
+   - Client program: Server computer 에게 요청하는 처리를 수행하는 프로그램
+   
++ cloud service: server computer에 있는 공간(물리적인 공간 또ㅗ는 서비스를 제공하는 프로그램)을 사용자에게 대여해주는 서비스, 반드시 internet에 연결된 상태이어야한다. web browser를 사용하여 cloud service를 이용한다.
+<hr></hr>
+
 <H2>Python</H2>
 본 과정은 머신러닝에 필요한 파이썬 프로그래밍 부터 데이터 분석 및 시각화 다양한 알고리즘 등을 학습한다.
 
 <h4>1.파이썬 개요</h4>
-  - Openn Source:프로그램을 작성한 소스(source)코드를 모두 공개하는 방식, 무료방식, GNU정신에 따른 S/W   
+  - Openn Source: 프로그램을 작성한 소스(source)코드를 모두 공개하는 방식, 무료방식, GNU정신에 따른 S/W   
 
-  - GNU정신:누구든지 자유롭게 사용할 수 있고, 누구든지 자유롭게 수정할 수 있고, 배포할 수 있다.   
+  - GNU정신: 누구든지 자유롭게 사용할 수 있고, 누구든지 자유롭게 수정할 수 있고, 배포할 수 있다.   
   
   - 컴퓨터 프로그램 언어유형(고급언어)
  > 인간입장에서 프로그래밍으로 컴퓨터에게 명령을 내리려면 고급언어를 사용하면 된다. 하지만 고급언어는 컴퓨터가 이해할 수 없다. 그래서 컴퓨터가 이해할 수 있는 형태로 바꿔주는 것을 번역이라고 한다. 그 번역방식에 따라서 Compile(영화 자막 작업같은), Interpreter(실시간)방식 프로그램 언어가 있다.
     
-    * COMPILE 방식 프로그램 언어:일괄 번역에 의하여 기계어를 생성하는 방식의 프로그램 언어, 동작 속도가 비교적 빠름   
+   * COMPILE 방식 프로그램 언어:일괄 번역에 의하여 기계어를 생성하는 방식의 프로그램 언어, 동작 속도가 비교적 빠름   
     
-    * Interpreter 방식 프로그램 언어(Python 해당):단계적으로 번역하여 기계어를 생성하는 방식의 프로그램 언어, 동작 속도가 비교적 느림   
+   * Interpreter 방식 프로그램 언어(Python 해당):단계적으로 번역하여 기계어를 생성하는 방식의 프로그램 언어, 동작 속도가 비교적 느림   
   
   - 자료형(Data Type):메모리에 공간을 확보하기 위한 방법   
     
-    * 정적 자료형(Static data type):미리 메모리 공간이 정보를 결정하는 방식 - compile 방식 프로그램 언어가 주로 사용   
+   * 정적 자료형(Static data type):미리 메모리 공간이 정보를 결정하는 방식 - compile 방식 프로그램 언어가 주로 사용   
     
-    * 동적 자료형(Dynamic data type):파이썬이 사용하는 자료형, 실행시 메모리 공간에 정보를 결정하는 방식 - interpreter방식 프로그램 언어가 주로 사용
+   * 동적 자료형(Dynamic data type):파이썬이 사용하는 자료형, 실행시 메모리 공간에 정보를 결정하는 방식 - interpreter방식 프로그램 언어가 주로 사용
     
  <h4>2.파이썬 언어 특징</h4>
  * 대화식 인터프리터 언어(고급언어) 
@@ -33,10 +94,11 @@ Python
  
  * 파이썬은 list, dictionary, string, tuple, set등 고수준의 자료구조를 제공한다.   
 
- 개념: 컴퓨터 시스템에게 명령을 내리기 위한 용도로 사용하는 프로그램언어
+개념: 컴퓨터 시스템에게 명령을 내리기 위한 용도로 사용하는 프로그램언어
 
 <h4>2.파이썬 개발환경 구축</h4>
-먼저 파이썬 개발과정부터 살펴본다.
+파이썬 개발과정을 살펴본다.
+
    - 개발 환경: 소스코드를 작성하고 기계어를 번역하고 실행하고 에러 또는 버그를 수정하기 위한 여러 프로그램을 설치한 환경, 실행가능한 프로그램을 만들기 위한 환경   
    
    * 소스 코드 편집기: tect형식의 문서를 작성할 수 잇는 프로그램   
@@ -60,7 +122,7 @@ Python
             
             -windows O/S에 설치할 때는 C:/Anaconda3로 설치 위치를 하는 게 차후 사용시 편리. d드라이브가 있으면 D:/Anaconda3에 설치
             
-*http://www.wearedev.net/247?PHPSESSID=863fed721b9b507a98f1d8b9118874c5 설치방법안내
+* http://www.wearedev.net/247?PHPSESSID=863fed721b9b507a98f1d8b9118874c5 설치방법안내
 
    3. cloud service를 이용한 파이썬 개발 환경 이용
          

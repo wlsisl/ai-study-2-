@@ -800,12 +800,15 @@ string.lstrip() #앞 공백 제거
 
    - tuple은 불변자료형   
    - tuple은 저장된 값이 변경되지 않아야 할 때 사용하는 sequence자료형    - tuple은 생성시 값을 저장하지 않으면 생성 후에는 값 추가를 할 수 없다.   
-   - 
+   
    - tuple생성   
       + 0:빈 tuple이나 literal을 초기값으로 갖는 tuple생성   
       + ,(comma)로 구분   
       + tuple()함수로 형변환   
       + tuple생성시 하나의 값이라도 반드시 ,(comma)를 포함해야 한다. 
+      
+      ![image](https://user-images.githubusercontent.com/86647080/128660949-95187db7-0265-4802-9b2e-aaf1724c7f2e.png)
+
     
    - sequende자료형 공통 연산-tuple   
       + indexing   
@@ -819,11 +822,12 @@ t라는 이름의 tuple을 생성하면 t=(1,10.5,'python')으로 저장할 수 
 
  + tuple은 불변(immutable)자료형이므로 초기에 tuple에 저장된 값에 대한 변경, 삭제, 값 추가 동작이 모두 불가능하다.   
 
-- indexing을 이용한 tuple요소 읽기
+  - indexing을 이용한 tuple요소 읽기
 
  + indecing: tuple요소(원소)에 대한 읽기 수행. tuple은 불변 자료형이므로 indexing을 통한 tuple요소에 대한 쓰기는 불가능
 
-  t[0], type(t[0])  
+
+![image](https://user-images.githubusercontent.com/86647080/128661010-25826bbc-37c2-4873-a6a3-bdb3ddad4236.png) 
   > 위 t=(1,10.5,'python')에서 0에는 1이 저장되어 있겠고 그 type은 int 즉 정수이다.
 
 - 중첩 tuple

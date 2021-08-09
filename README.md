@@ -742,6 +742,8 @@ $$x={-b \pm \sqrt {b^2-4ac} \over 2a} $$
        
      + str메서드:str내용을 가공하는 용도의 함수, 메서드가 동작하는 시점에만 변화가 적용된다.
 
+<img scr="/path/to/img.jpg">
+
 print(string.upper())
 I LIKE PROGRAMMING. I LIKE PYTHON
 

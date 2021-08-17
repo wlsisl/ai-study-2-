@@ -648,8 +648,7 @@ string.lstrip() #앞 공백 제거
       + tuple()함수로 형변환   
       + tuple생성시 하나의 값이라도 반드시 ,(comma)를 포함해야 한다. 
       
-      ![image](https://user-images.githubusercontent.com/86647080/128660949-95187db7-0265-4802-9b2e-aaf1724c7f2e.png)
-
+   ![image](https://user-images.githubusercontent.com/86647080/129715134-e9c33b84-8ba5-418e-99c9-03165ca4e497.png)
     
    - sequende자료형 공통 연산-tuple   
       + indexing   
@@ -668,7 +667,7 @@ t라는 이름의 tuple을 생성하면 t=(1,10.5,'python')으로 저장할 수 
  + indecing: tuple요소(원소)에 대한 읽기 수행. tuple은 불변 자료형이므로 indexing을 통한 tuple요소에 대한 쓰기는 불가능
 
 
-![image](https://user-images.githubusercontent.com/86647080/128661010-25826bbc-37c2-4873-a6a3-bdb3ddad4236.png) 
+![image](https://user-images.githubusercontent.com/86647080/129715203-2cebff1b-0461-4183-9e75-9b52adf9949d.png)
   > 위 t=(1,10.5,'python')에서 0에는 1이 저장되어 있겠고 그 type은 int 즉 정수이다.
 
 - 중첩 tuple

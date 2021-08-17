@@ -192,11 +192,11 @@ Python은 컴퓨터 시스템에게 명령을 내리기 위한 용도로 사용�
             $$x = { -b \pm \sqrt { b^2 - 4ac } \over 2a}$$
             문장중에 수식을 표현할 때는 $X^2 \times Y^2$ 이와 같이 표현한다. 
             
-![image](https://user-images.githubusercontent.com/86647080/128700624-c5580d23-b020-4ff4-96fd-e8b906995e12.png  width="40%" height="30%")
+![image](https://user-images.githubusercontent.com/86647080/128700624-c5580d23-b020-4ff4-96fd-e8b906995e12.png)
 
 <img src="/path/to/img.jpg" width="40%" height="30%" title="px(픽셀) 크기 설정" alt="RubberDuck"></img>
 
-![Alt text](/path/to/img.jpg)
+![Alt text](https://user-images.githubusercontent.com/86647080/128700624-c5580d23-b020-4ff4-96fd-e8b906995e12.png/path/to/img.jpg)
     
 ![image](https://user-images.githubusercontent.com/86647080/128700546-db54c024-4ec3-4d62-9305-53ffb2e17688.png)
 

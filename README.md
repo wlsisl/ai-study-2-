@@ -193,7 +193,8 @@ Python은 컴퓨터 시스템에게 명령을 내리기 위한 용도로 사용�
             문장중에 수식을 표현할 때는 $X^2 \times Y^2$ 이와 같이 표현한다. 
             
   ![image](https://user-images.githubusercontent.com/86647080/129709869-d667191e-cc5c-4bab-885b-ee4d5853c164.png)
-![image](https://user-images.githubusercontent.com/86647080/129709904-db3dd3a8-fae3-4efc-8d11-5b70574d9e45.png)
+  
+  ![image](https://user-images.githubusercontent.com/86647080/129709904-db3dd3a8-fae3-4efc-8d11-5b70574d9e45.png)
 
 
   * jupyter lab: jupyter notebook의 개선된 기능을 제공하는 개발환경
@@ -387,85 +388,42 @@ Python은 컴퓨터 시스템에게 명령을 내리기 위한 용도로 사용�
  <hr></hr>
    
 <h3>제어문</h3>
-   
-    + 순차구조: 명령어를 위에서 아래로 차례대로 나열하고 순서대로 실행하는 구조로 별도의 키워드가 없다.   
-  
-    + 선택구조: 명령어를 수행시 조건에 따라 명령의 실행 순서를 변경하여 실행하는 구조   
-    
-         * 선택 구조는 if elif else keyword사용
-  
-         * 단순 선택구조:조건이 참인 경우에 대한 처리 방향만 결정
-  
-            if<조건식>:
-              조건이 참일 때 수행할 코드 블럭
 
-         * 양자 택일 구조      
-           
-            if<조건식>:
-  
-              조건이 참일 때 수행할 코드 블럭
-  
-            else:
-  
-              조건이 거짓일 때 수행할 코드 블럭
-  
-          * 다중 선택 구조: 여러 조건에 따른 각각의 조건이 참인 경우와 거짓인 경우의 처리 방향 결정
-   
-            if<조건식1>:
-  
-             조건1이 참일 때 수행할 코드 블럭
-  
-            elif<조건식2>:
-  
-             조건2가 참일 때 수행할 코드 블럭
-  
-             ...
-       
-             elif<조건식n>:
-   
-             조건n이 참일 때 수행할 코드 블럭
-   
-             else:
-              
-           * 중첩 선택 구조: 선택구조 안에 선택 구조가 포함된 구조
+   ![image](https://user-images.githubusercontent.com/86647080/129712124-f3104f75-126c-40dd-ad84-5d590db44397.png) 
           
-             if<조건식1>:
-  
-                 if<조건식2>:
+   ![image](https://user-images.githubusercontent.com/86647080/129712273-d637f8ee-cae9-4143-a22a-3c7917d0dfa4.png)
+
+     여러 조건에 따른 각각의 조건이 참인 경우와 거짓인 경우의 처리 방향을 결정한다.
    
-                     조건식1이 참이고 조건식2가 참일 때 수행할 코드블럭
-  
- 
-  
+   ![image](https://user-images.githubusercontent.com/86647080/129712717-7d1d153d-65a3-400f-b784-8cb9f691ab0d.png)
+     
+   위는 선택구조 안에 선택 구조가 포함된 구조인 중첩 선택 구조이다.
+           
   - 프로그램은 3가지 구조의 조합에 의하여 동작한다.
   
   - 입력시 항상 입력 값에 대한 오류를 확인해야 한다. 입력 값 자료형 체크->프로그램 logic으로 해결하기 어렵고 별도의 자료형 확인 함수를 사용한다. 입력값 범위 체크->프로그램 logic으로 해결할 수 있다.
   
-     + 반복구조: 명령을 수행할 때 일정한 반복 횟수나 조건이 참이 되는 동안 반복해서 명령을 실행하는 구조
-  
-          * 반복 횟수가 정해진 경우 - for문
-  
-              for <반복제어변수> in range():
-                  반복시 수행할 코드 블럭
+   
+   ![image](https://user-images.githubusercontent.com/86647080/129713062-2621e913-641e-4623-b325-4a585ac9ce2c.png)
+
+    반복구조는 명령을 수행할 때 일정한 반복 횟수나 조건이 참이 되는 동안 반복해서 명령을 실행하는 구조이다.
+    반복 횟수가 정해진 경우를 for문이라고 한다.
             
-               range()함수는 반복 횟수를 정해주는 함수
-               range(반복 시작값, 반복 종료값, 반복 간격)
-               반복 시작값:기본값은0, 생략하면 0으로 간주
+       range()함수는 반복 횟수를 정해주는 함수
+       range(반복 시작값, 반복 종료값, 반복 간격)
+       반복 시작값:기본값은0, 생략하면 0으로 간주
         
-               반복 종료값:반복 종료값을 결정하며 반복종료값은 반복에 포함되지 않는다. (반복 종료값-1)까지
+       반복 종료값:반복 종료값을 결정하며 반복종료값은 반복에 포함되지 않는다. (반복 종료값-1)까지
         
-               반복 간격:기본값은1, 생략하면 1로 간주
+       반복 간격:기본값은1, 생략하면 1로 간주
   
-               중첩 for문: for문안에 for문을 표현하는 경우
+   ![image](https://user-images.githubusercontent.com/86647080/129713286-3113f307-582d-437a-ae92-624ac7241a4e.png)
+
+       중첩 for문은 for문안에 for문을 표현하는 경우이다. 여기서는 대표적으로 구구단 표를 만들어 봤다.
  
-             <code>
-                  for i in range(1,11):
-                        if i%2:  #2로나눠서 나머지1이면? 참이네!print 해야지
-                
-                   print(i,end='\t') 
-             <code>
-                      
-        * 반복 횟수가 정해지지 않은 경우 -while문  #반복하다가 어느 특정값 입력하면 멈추도록 할 수 있음.
+   ![image](https://user-images.githubusercontent.com/86647080/129713481-b049e0ab-9db4-4f1d-b06b-4b37fe41cf07.png)
+
+       반복 횟수가 정해지지 않은 경우는 while문을 사용한다. 반복하다가 어느 특정값 입력하면 멈추도록 할 수 있다.
       
       + while문은 반복탈출조건이 참인동안에 반복하는 반복구조이다. while문은 반복을 한번도 수행하지 않을 수 있다. while블럭안에서 반복탈출조건에 대한 값 변경 코드가 없으면 반복을 탈출할 수 없어서 무한 반복이 될 수 있다. 반복문 중간에 탈출하기 위해서는 break문 사용해야 한다. 반복문 중간에 특정 반복 내용을 건너뛰기 위해서는 continue문 사용한다.      
 <hr></hr>
@@ -491,8 +449,10 @@ Python은 컴퓨터 시스템에게 명령을 내리기 위한 용도로 사용�
 - 파이썬 for문에서 반복 제어 변수를 별도로 활용하지 않을 때는 _ 를 사용한다.
 
 - Symbolic Constant(의미화 상수):상수(constant,literal,값)에 의미를 부여. 일반 변수와 구분을 위해 대문자로 작성한다.-> 프로그램 유지 보수성 향상을 위해 활용
- 
-- 문제 풀이 단계
+   
+   ![image](https://user-images.githubusercontent.com/86647080/129714703-87258bca-b557-4a33-a80f-e1976933ae82.png)
+
+ - 문제 풀이 단계
 
    1. 문제 이해(분석 단계)- what을 파악   
    
@@ -501,7 +461,10 @@ Python은 컴퓨터 시스템에게 명령을 내리기 위한 용도로 사용�
           
    2. 문제 해결을 위한 알고리즘 설계(설계단계)-논리를 표현. 가극적 how를 표현   
    3. 프로그램 언어로 표현(구현단계)-프로그램 언어의 문법으로 표현. 구체적 how를 표현
+   
+   ![image](https://user-images.githubusercontent.com/86647080/129714839-c9ecef22-eadb-45c5-bed5-14434bf9bf04.png)
 
+   
 <hr></hr>
    
 <h4>Sequence 자료형</h4>
@@ -633,21 +596,7 @@ Python은 컴퓨터 시스템에게 명령을 내리기 위한 용도로 사용�
        
      + str메서드:str내용을 가공하는 용도의 함수, 메서드가 동작하는 시점에만 변화가 적용된다.
 
-![image](https://user-images.githubusercontent.com/86647080/128658511-107d0c38-61d2-4020-a701-6a56a7be8788.png)
-
-
-print(string.upper())
-I LIKE PROGRAMMING. I LIKE PYTHON
-
-print(string.lower())
-i like programming. i like python
-
-print(string.capitalize()) #문자열 첫 글자만 대문자 변환
-I like programming. i like python
-
-print(string.title()) #단어별 첫글자만 대문자로 변환
-I Like Programming. I Like Python
-  
+![image](https://user-images.githubusercontent.com/86647080/129713728-19acfd9d-341b-4344-80ab-5d3d28de9078.png)
   
    + \:제어문자를 표현할 때 사용함으로 \를 직접 사용하고자 할 때는 반드시 \를 두번 기술한다. (string.split('\\'))   
    

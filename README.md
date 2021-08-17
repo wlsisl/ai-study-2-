@@ -192,7 +192,7 @@ Python은 컴퓨터 시스템에게 명령을 내리기 위한 용도로 사용�
             $$x = { -b \pm \sqrt { b^2 - 4ac } \over 2a}$$
             문장중에 수식을 표현할 때는 $X^2 \times Y^2$ 이와 같이 표현한다. 
             
-<img width="40%" height="30%">![image](https://user-images.githubusercontent.com/86647080/128700624-c5580d23-b020-4ff4-96fd-e8b906995e12.png)</img>
+<img width="450px" height="300px">![image](https://user-images.githubusercontent.com/86647080/128700624-c5580d23-b020-4ff4-96fd-e8b906995e12.png)</img>
 
 
   * jupyter lab: jupyter notebook의 개선된 기능을 제공하는 개발환경

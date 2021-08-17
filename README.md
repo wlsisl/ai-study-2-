@@ -195,6 +195,9 @@ Python은 컴퓨터 시스템에게 명령을 내리기 위한 용도로 사용�
 <img width="40%" height="30%">![image](https://user-images.githubusercontent.com/86647080/128700624-c5580d23-b020-4ff4-96fd-e8b906995e12.png)</img>
 
 
+![image](https://user-images.githubusercontent.com/86647080/129709714-ec9fa8d4-f993-4c26-8077-48c0f1102104.png)
+
+
   * jupyter lab: jupyter notebook의 개선된 기능을 제공하는 개발환경
 
 <hr></hr>

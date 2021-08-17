@@ -392,6 +392,7 @@ Python은 컴퓨터 시스템에게 명령을 내리기 위한 용도로 사용�
    ![image](https://user-images.githubusercontent.com/86647080/129715455-395dfbdd-ad75-4d57-9ffe-ab6a867fb0c5.png)
    
    ![image](https://user-images.githubusercontent.com/86647080/129715505-e8a994f6-5c25-4454-ac14-dcf1e429fefc.png)
+   
      여러 조건에 따른 각각의 조건이 참인 경우와 거짓인 경우의 처리 방향을 결정한다.
    
    ![image](https://user-images.githubusercontent.com/86647080/129715537-06104960-efb6-441f-945c-a14a8ceb544d.png)

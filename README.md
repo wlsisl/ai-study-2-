@@ -195,6 +195,8 @@ Python은 컴퓨터 시스템에게 명령을 내리기 위한 용도로 사용�
 ![image](https://user-images.githubusercontent.com/86647080/128700624-c5580d23-b020-4ff4-96fd-e8b906995e12.png  width="40%" height="30%")
 
 <img src="/path/to/img.jpg" width="40%" height="30%" title="px(픽셀) 크기 설정" alt="RubberDuck"></img>
+
+![Alt text](/path/to/img.jpg)
     
 ![image](https://user-images.githubusercontent.com/86647080/128700546-db54c024-4ec3-4d62-9305-53ffb2e17688.png)
 
@@ -248,8 +250,7 @@ Python은 컴퓨터 시스템에게 명령을 내리기 위한 용도로 사용�
            8bit==1byte:2진수 8자리(2의 8승, 256가지표현)==영어 한문자
            
            16bit==2byte:2진수 16자리(65536가지 표현)===한글 한문자
-           
-        ~여기서 잠깐~
+          
        bit 많이 들어봤지만 정확히 알고 가고 싶어 더 검색해 보았다. 일단 기본적으로 컴퓨터의 단위라는 것. 컴퓨터에서 인간이 입력한 문자 모든 정보를 0과 1로만 나타내어 이해한다! 그런데 모든 문자들을 표현하는데 문자들 간의 길이 차이 즉 정보의 양이 다르기 때문에 nbit가 나온다.
        
    - 자료형:메모리에 값을 저장하기 위한 정보

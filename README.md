@@ -1,17 +1,13 @@
 # ai-study-2-
 Python
 
-*목차*
+<h3>목차</h3>
 
-참여하게 된 계기  
-
-강의소개
-
-1. 컴퓨터 구조
-
-2. python
-
-인공지능 스터디를 마치고
+<h5>참여하게 된 계기</h5>  
+<h5>강의소개</h5>
+<h5>1. 컴퓨터 구조</h5>
+<h5>2. python</h5>
+<h5>인공지능 스터디를 마치고</h5>
 
 <h3><참여하게 된 계기></h3>
 
@@ -106,48 +102,19 @@ I/O(input/output)Device:입/출력 장치
  
  * 파이썬은 list, dictionary, string, tuple, set등 고수준의 자료구조를 제공한다.   
 
-개념: 컴퓨터 시스템에게 명령을 내리기 위한 용도로 사용하는 프로그램언어
+Python은 컴퓨터 시스템에게 명령을 내리기 위한 용도로 사용하는 프로그램언어이다.
+   
 <hr></hr>
-
-<h4>2.파이썬 개발환경 구축</h4>
-파이썬 개발과정을 살펴본다.
-
-   - 개발 환경: 소스코드를 작성하고 기계어를 번역하고 실행하고 에러 또는 버그를 수정하기 위한 여러 프로그램을 설치한 환경, 실행가능한 프로그램을 만들기 위한 환경이다.
-   
-   * 소스 코드 편집기: tect형식의 문서를 작성할 수 잇는 프로그램   
-   
-   * compiler/interpreter:기계어(binary)로 번역하는 프로그램   
-   
-   * 실행프로그램(실행기):완성된 실행 프로그램을 실행 시킬수 있는 프로그램/번역된 결과를 컴퓨터가 동작할 수 있도록 처리해주는 프로그램   
-   
-   * debugger:bug(error)를 수정하기 위해서 사용하는 프로그램
-   
-   - 실행환경: 완성된 프로그램(binary 형태)이 실행하는 환경   
-   
-   - Python 개발환경 구축 유형   
-        1. 파이썬 공식 개발 환경을 이용한 개발환경 구축   
-            *(https://www.python.org/)
-            
-        2. 파이썬 배포판을 이용한 개발환경구축   
-            *(https://www.anaconda.com/) 
-            
-            -파이썬 기본 개발 환경에 추가적으로 빅데이터 처리, ai모델개발을 위한 환경을 모두 포함
-            
-            -windows O/S에 설치할 때는 C:/Anaconda3로 설치 위치를 하는 게 차후 사용시 편리. d드라이브가 있으면 D:/Anaconda3에 설치
-            
-* http://www.wearedev.net/247?PHPSESSID=863fed721b9b507a98f1d8b9118874c5 설치방법안내       
-       
-     3. cloud service를 이용한 파이썬 개발 환경 이용
-         
-         -goolge에서 제공하는 파이썬 개발 환경 이용이다. 활용 과정은 google drive에 접속->내 드라이브-> 마우스 오른쪽 클릭 -> 프로그램 더보기->google colaboratory프로그램 실행을 누른다. google에서 제공하는 환경이기 때문에 서버에 설치된다. 그래서 내 pc사양에 상관없이 사용할 수 있다는 장점이 있다.
-         
+  
 <h4>파이썬 개발 환경 이해</h4>
 
  -Anaconda 개발 환경 이해
    
   * 통합 개발 환경(IDE,integrated Development Environment):코드 편집, 번역, 실행, debugging을 하나의 tool을 이용하여 수행할 수 있도록 하는 개발 환경 anaconda의 spider,pycharm등이 있다.
        
-  * jupyter notebook/jupyter lab:python 코드편집, 실행, Markdown을 이용한 문서화, 실행 결과를 하나의 notebook으로 표현(데이터분석, ai할 때는 데이터분석 사용할 코드도 필요하고 그 코드에 의한 결과물이 필요하고 이를 문서화할 때 용이)
+  * jupyter notebook/jupyter lab:python 코드편집, 실행, Markdown을 이용한 문서화, 실행 결과를 하나의 notebook으로 표현(데이터분석, ai할 때는 데이터분석 사용할 코드도 필요하고 그 코드에 의한 결과물이 필요하고 이를 문서화할 때 용이) 
+  > cloud service는 goolge에서 제공하는 파이썬 개발 환경 이용이다. 활용 과정은 google drive에 접속->내 드라이브-> 마우스 오른쪽 클릭 -> 프로그램 더보기->google colaboratory프로그램 실행을 누른다. google에서 제공하는 환경이기 때문에 서버에 설치된다. 그래서 내 pc사양에 상관없이 사용할 수 있다는 장점이 있다.
+
        
   * windows O/S : anaconda prompt 프로그램 실행
              
@@ -225,17 +192,14 @@ I/O(input/output)Device:입/출력 장치
             $$x = { -b \pm \sqrt { b^2 - 4ac } \over 2a}$$
             문장중에 수식을 표현할 때는 $X^2 \times Y^2$ 이와 같이 표현한다. 
             
-![image](https://user-images.githubusercontent.com/86647080/128700624-c5580d23-b020-4ff4-96fd-e8b906995e12.png)
+![image](https://user-images.githubusercontent.com/86647080/128700624-c5580d23-b020-4ff4-96fd-e8b906995e12.png  width="40%" height="30%")
+
+<img src="/path/to/img.jpg" width="40%" height="30%" title="px(픽셀) 크기 설정" alt="RubberDuck"></img>
     
 ![image](https://user-images.githubusercontent.com/86647080/128700546-db54c024-4ec3-4d62-9305-53ffb2e17688.png)
 
    * jupyter lab: jupyter notebook의 개선된 기능을 제공하는 개발환경
 
-- google colab
- 
-   * google drive 상에서 실행하는 jupyter notebook   
-   * google cloud 환경에서 실행되므로 server computer의 H/W 자원을 사용한다.   
-   * 어디서든지 web browser를 실행해서 colab을 실행할 수 있다.
 <hr></hr>
 
 <h4>파이썬 프로그램 구조</h4>

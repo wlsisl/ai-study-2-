@@ -1,4 +1,4 @@
-# ai-study-2-
+# ai-study-
 Python
 
 <h3>목차</h3>
